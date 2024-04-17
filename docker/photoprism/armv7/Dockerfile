@@ -20,7 +20,7 @@ RUN make all install DESTDIR=/opt/photoprism
 
 ################################################## PRODUCTION STAGE ####################################################
 #### Base Image: Ubuntu 23.10 (Mantic Minotaur)
-FROM ubuntu:mantic
+FROM ubuntu:23.10
 
 # Add Open Container Initiative (OCI) annotations.
 # See: https://github.com/opencontainers/image-spec/blob/main/annotations.md
