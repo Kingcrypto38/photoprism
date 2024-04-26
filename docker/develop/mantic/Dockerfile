@@ -1,5 +1,5 @@
 #### Base Image: Ubuntu 23.10 (Mantic Minotaur)
-FROM ubuntu:mantic
+FROM ubuntu:23.10
 
 # Copyright © 2018 - 2023 PhotoPrism UG. All rights reserved.
 #
